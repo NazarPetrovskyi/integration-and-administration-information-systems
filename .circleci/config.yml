@@ -48,4 +48,4 @@ jobs:
             gcloud config set compute/region $GOOGLE_COMPUTE_REGION
             gcloud config set compute/zone $GOOGLE_COMPUTE_ZONE
            
-            gcloud beta run deploy  --image=$IMAGE_NAME	 --platform=managed --region=$GOOGLE_COMPUTE_REGION --allow-unauthenticated
+            gcloud beta run deploy  --image=$IMAGE_NAME	 --platform=managed --region=$GOOGLE_COMPUTER_REGION --allow-unauthenticated
